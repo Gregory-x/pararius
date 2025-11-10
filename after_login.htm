@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.pararius.com/account/subscribe -->
+<html lang="en" class="has-js"><script async="" src="./after_login_files/gtm.js.download"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style>
+                                                                                <link rel="preconnect" href="https://cdn.cookielaw.org/">
+                        <script src="./after_login_files/otSDKStub.js.download" data-domain-script="830efbbc-d64d-4d58-9372-fb677f7af069" data-document-language="true"></script>
+                                    
+                                    <link rel="preconnect" href="https://www.googletagmanager.com/">
+                    <script>
+                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                        })(window,document,'script','dataLayer', 'GTM-TDHQ555');
+                    </script>
+                                    
+                            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            (function (htmlNode) {
+                htmlNode.classList.add('has-js');
+            })(document.documentElement);
+
+                            var Platform = {
+                    locale: 'en',
+                    label: 'pararius',
+                    currency: 'EUR',
+                    priceConversionFactor: 1,
+                    uris: {
+                        autocomplete: '/api/suggest',
+                        get_search_urls: '/frontend/get-search-urls',
+                        maps: 'https://www.pararius.nl/api/map',
+                        recent_searches: '/api/recent-searches',
+                        listing_search_item: '/frontend/en/listing-search-item/'
+                    },
+                    keys: {
+                        location_iq: 'pk.2fac1abcf0d6b2508bf05c33344670ce',
+                    },
+                    trackers: {
+                        conversion_stats: false,
+                    },
+                    enabled_feature_toggles: '\u005B\u005D',
+                    optimize_variables: {},
+                    affiliate_data: {
+                        user_id:  '695de994-4f06-49ca-a142-752b109999a4' ,
+                    },
+                };
+            
+                Platform.trackers.conversion_stats = true;
+
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+        </script>
+
+        <title></title>
+        
+        <meta name="description" content="">
+        <meta name="robots" content="">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="https://www.pararius.com/account/subscribe">
+                    <link rel="canonical" href="https://www.pararius.com/account/subscribe">
+                                            <link rel="alternate" hreflang="nl" href="https://www.pararius.nl/account/inschrijven">
+                            <link rel="alternate" hreflang="en" href="https://www.pararius.com/account/subscribe">
+                            <link rel="alternate" hreflang="fr" href="https://www.pararius.com/account/fr/subscribe">
+                            <link rel="alternate" hreflang="de" href="https://www.pararius.com/account/de/subscribe">
+                            <link rel="alternate" hreflang="it" href="https://www.pararius.com/account/it/subscribe">
+                            <link rel="alternate" hreflang="es" href="https://www.pararius.com/account/es/subscribe">
+                                                            
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com/">
+    <link rel="preload" href="https://dev.visualwebsiteoptimizer.com/j.php?a=774484&amp;u=https%3A%2F%2Fwww.pararius.com%2Faccount%2Fsubscribe&amp;vn=2.1&amp;x=true" as="fetch" crossorigin="use-credentials">
+    <script id="vwoCode">
+    window._vis_opt_url = 'https://www.pararius.com/account/subscribe';
+    window._vwo_code || (function() {
+    var account_id=774484,
+    version=2.1,
+    settings_tolerance=2000,
+    hide_element='body',
+    hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+    /* DO NOT EDIT BELOW THIS LINE */
+    f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={nonce:v&&v.nonce,use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){if(performance.getEntriesByName('first-contentful-paint')[0]){return''}return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){if(!f){f=true;var t=d.getElementById('_vis_opt_path_hides');if(t)t.parentNode.removeChild(t);if(e)(new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e}},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript';if(e.src){t.src=e.src}else{t.text=e.text}v&&t.setAttribute('nonce',v.nonce);d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){var n=this.getSettings(),i=d.createElement('script'),r=this;t=t||{};if(n){i.textContent=n;d.getElementsByTagName('head')[0].appendChild(i);if(!w.VWO||VWO.caE){stT.removeItem(cK);r.load(e)}}else{var o=new XMLHttpRequest;o.open('GET',e,true);o.withCredentials=!t.dSC;o.responseType=t.responseType||'text';o.onload=function(){if(t.onloadCb){return t.onloadCb(o,e)}if(o.status===200||o.status===304){_vwo_code.addScript({text:o.responseText})}else{_vwo_code.finish('&e=loading_failure:'+e)}};o.onerror=function(){if(t.onerrorCb){return t.onerrorCb(e)}_vwo_code.finish('&e=loading_failure:'+e)};o.send()}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t;if(this.hide_element()!=='body'){t=d.createElement('style');var n=this.hide_element(),i=n?n+this.hide_element_style():'',r=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');v&&t.setAttribute('nonce',v.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));r.appendChild(t)}else{t=d.getElementsByTagName('head')[0];var i=d.createElement('div');i.style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;';i.setAttribute('id','_vis_opt_path_hides');i.classList.add('_vis_hide_layer');t.parentNode.insertBefore(i,t.nextSibling)}var o=window._vis_opt_url||d.URL,s='https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(o)+'&vn='+version;if(w.location.search.indexOf('_vwo_xhr')!==-1){this.addScript({src:s})}else{this.load(s+'&x=true')}}};w._vwo_code=code;code.init();})();
+    </script>
+    <!-- End VWO Async SmartCode -->
+
+            
+
+    <link rel="preconnect" href="https://connect.facebook.net/">
+
+    <script type="text/plain" class="optanon-category-C0004">
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '855720297872780');
+    fbq('track', 'PageView');
+</script>
+
+                        
+        <link rel="stylesheet" href="./after_login_files/VisuallyHidden-MUGBFHHU.css">
+
+                                        
+                <link rel="preload" href="https://www.pararius.com/frontend/assets/Pararius/Font/Open-Sans-Latin-Bold-664Y32QN.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://www.pararius.com/frontend/assets/Pararius/Font/Open-Sans-Latin-Regular-7ZFEXO33.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" href="./after_login_files/Pararius-JELBAYXN.css">
+    <link rel="stylesheet" href="./after_login_files/Button-N7L3ZKGM.css">
+    <link rel="icon" href="https://www.pararius.com/frontend/assets/Pararius/BrandIcons/AppleTouchIcon-E5FFVOL7.png" type="image/png">
+    <link rel="icon" href="https://www.pararius.com/frontend/assets/Pararius/BrandIcons/Favicon-ISTTEWMI.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://www.pararius.com/frontend/assets/Pararius/BrandIcons/AppleTouchIcon-E5FFVOL7.png">
+    <link rel="manifest" href="https://www.pararius.com/frontend/assets/Pararius/BrandIcons/Site.webmanifest">
+    <meta name="facebook-domain-verification" content="my9scf9jzn5vkotka8b5ayulv9f6k3">
+    <meta property="og:site_name" content="Pararius.nl">
+
+            <script type="text/javascript" src="./after_login_files/tp.widget.bootstrap.min.js.download" async=""></script>
+    
+                        <script src="./after_login_files/chargebee.js.download" data-cb-site="pararius"></script><script charset="utf-8" src="./after_login_files/240-1fe4c312c72c78ff417b.js.download"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                window.chargebeeCheckoutUrl = '/account/checkout/open';
+
+                const cbInstance = Chargebee.getInstance();
+
+                function trackStepInContentSquare (step) {
+                    window._uxa = window._uxa || [];
+                    window._uxa.push(['setQuery', `${location.search + (location.search ? '&' : '?') }cs-popin-checkout-${step}`]);
+                    window._uxa.push([
+                        'trackPageview',
+                        window.location.pathname + window.location.hash.replace('#', '?__'),
+                    ]);
+                    window._uxa.push(['setQuery', location.search]);
+                }
+
+                function openCheckout(event) {
+                    event.preventDefault();
+                    cbInstance.openCheckout({
+                        hostedPage: function () {
+                            const url = new URL(window.chargebeeCheckoutUrl, window.location.origin);
+                            url.searchParams.append('origin_url', window.location.href);
+                            return fetch(url.toString()).then(function (response) {
+                                return response.json();
+                            });
+                        },
+                        loaded: function () {
+                            navigator.sendBeacon("/api/track/subscription-started");
+                            trackStepInContentSquare('start');
+                        },
+                        step: function (step) {
+                            const formData = new FormData();
+                            formData.append('step', step);
+                            navigator.sendBeacon("/api/track/subscription-step", formData);
+                            trackStepInContentSquare(step);
+                        },
+                        close: function () {
+                            const formData = new FormData();
+                            formData.append('step', 'closed');
+                            navigator.sendBeacon("/api/track/subscription-step", formData);
+                        }
+                    })
+                }
+
+                document.body.addEventListener('click', function (evt) {
+                    if (evt.target.closest('.cb-checkout-button')) {
+                        openCheckout(evt);
+                    }
+                });
+            });
+        </script>
+    
+        <script type="module" src="./after_login_files/Pararius-Y7FFAFLG.js.download"></script>
+<link href="./after_login_files/Create-O3A5TSI3.css" rel="stylesheet">
+<link href="./after_login_files/LanguageSwitcher-LQTMS7V6.css" rel="stylesheet">
+<link href="./after_login_files/Menu-OJT5TP23.css" rel="stylesheet">
+<link href="./after_login_files/Notification-RZB6PYDE.css" rel="stylesheet">
+<script src="./after_login_files/Create.wc-NZX7OOCL.js.download" type="module"></script>
+<script src="./after_login_files/Masthead.wc-OPXIHWPK.js.download" type="module"></script>
+<script src="./after_login_files/LanguageSwitcher.wc-DR5VQG7H.js.download" type="module"></script>
+<script src="./after_login_files/Notification.wc-ZI3OADZ7.js.download" type="module"></script>
+<script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script><script type="text/javascript" nonce="">(function(){function _vwo_err(e){var vwo_e=new Image;vwo_e.src="https://dev.visualwebsiteoptimizer.com/e.gif?a=774484&s=j.php&e="+encodeURIComponent(e&&e.message&&e.message.substring(0,1e3)+"&vn=")}try{var extE=0;(function(){window._VWO=window._VWO||{};var aC=window._vwo_code;if(typeof aC==='undefined'){window._vwo_mt='dupCode';return;}if(window._VWO.sCL){window._vwo_mt='dupCode';window._VWO.sCDD=true;try{if(aC){clearTimeout(window._vwo_settings_timer);var h=document.querySelectorAll('#_vis_opt_path_hides');var x=h[h.length>1?1:0];x&&x.remove();}}catch(e){}return;}window._VWO.sCL=true;;window._vwo_mt="live";var localPreviewObject={};var previewKey="_vis_preview_"+774484;var wL=window.location;;try{localPreviewObject[previewKey]=window.localStorage.getItem(previewKey);JSON.parse(localPreviewObject[previewKey])}catch(e){localPreviewObject[previewKey]=""}try{window._vwo_tm="";var getMode=function(e){var n;if(window.name.indexOf(e)>-1){n=window.name}else{n=wL.search.match("_vwo_m=([^&]*)");n=n&&atob(decodeURIComponent(n[1]))}return n&&JSON.parse(n)};var ccMode=getMode("_vwo_cc");if(window.name.indexOf("_vis_heatmap")>-1||window.name.indexOf("_vis_editor")>-1||ccMode||window.name.indexOf("_vis_preview")>-1){try{if(ccMode){window._vwo_mt=decodeURIComponent(wL.search.match("_vwo_m=([^&]*)")[1])}else if(window.name&&JSON.parse(window.name)){window._vwo_mt=window.name}}catch(e){if(window._vwo_tm)window._vwo_mt=window._vwo_tm}}else if(window._vwo_tm.length){window._vwo_mt=window._vwo_tm}else if(location.href.indexOf("_vis_opt_preview_combination")!==-1&&location.href.indexOf("_vis_test_id")!==-1){window._vwo_mt="sharedPreview"}else if(localPreviewObject[previewKey]){window._vwo_mt=JSON.stringify(localPreviewObject)}if(window._vwo_mt!=="live"){if(typeof extE!=="undefined"){extE=1}if(!getMode("_vwo_cc")){_vwo_code.load('https://dev.visualwebsiteoptimizer.com/j.php?mode=' + encodeURIComponent(window._vwo_mt) + '&a=774484&f=1&u=' + encodeURIComponent(window._vis_opt_url||document.URL)+'&eventArch=true'+'&x=true', { sL: window._vwo_code.sL }); if(window._vwo_code.sL) { prevMode = true; }}else{(function(){window._vwo_code&&window._vwo_code.finish();_vwo_ccc={u:"/j.php?a=774484&u=https%3A%2F%2Fwww.pararius.com%2Faccount%2Fsubscribe&vn=2.1&x=true"};var s=document.createElement("script");s.src="https://app.vwo.com/visitor-behavior-analysis/dist/codechecker/cc.min.js?r="+Math.random();document.head.appendChild(s)})()}}}catch(e){var vwo_e=new Image;vwo_e.src="https://dev.visualwebsiteoptimizer.com/ee.gif?s=mode_det&e="+encodeURIComponent(e&&e.stack&&e.stack.substring(0,1e3)+"&vn=");aC&&window._vwo_code.finish()}})();
+;window._vwo_cookieDomain="pararius.com";if(window._vwo_mt === "live"){window.VWO=window.VWO||[];window._vwo_acc_id=774484;window.VWO._=window.VWO._||{};;const shouldSampleApm=false;if(shouldSampleApm){VWO.load_co=function(a){var b=document.createElement("script");b.src=a;b.crossOrigin="anonymous";b.type="text/javascript";b.fetchPriority="high";b.innerText;b.onerror=function(){_vwo_code.finish()};document.getElementsByTagName("head")[0].appendChild(b)};setTimeout((function(){VWO.load_co("https://dev.visualwebsiteoptimizer.com/cdn/apmLib-7716d5be4a4d111d8af5b28be8ff864cbr.js")}),0)}VWO._=VWO._||{};var visMeta=VWO._.visMeta;VWO._.allSettings=function(){return{dataStore:{events:{}}}}();window.VWO.visUuid="DFCD00023F84325ABFE8CB3FA89B95334|a7c9a0e3edab93592851d1b94c5b3c56";
+;_vwo_code.sT=_vwo_code.finished();(function(c,a,e,d,b,z,g){if(window.VWO._&&window.VWO._.isBot)return;const cookiePrefix=window._vwoCc&&window._vwoCc.cookiePrefix||"";function f(a,b,d){var cookieName=cookiePrefix+a;e.cookie=cookieName+"="+b+"; expires="+new Date(864e5*d+ +new Date).toGMTString()+"; domain="+g+"; path=/"}const escapedCookieName=(cookiePrefix+"_vwo_uuid_v2").replace(/([.*+?^${}()|[\]\\])/g,"\\$1");const regex=new RegExp("(^|;\\s*)"+escapedCookieName+"=([^;]*)");const match=e.cookie.match(regex);-1==e.cookie.indexOf("_vis_opt_out")&&-1==d.location.href.indexOf("vwo_opt_out=1")&&(a=match?decodeURIComponent(match[2]):a,a=a.split("|"),b=new Image,g=window._vis_opt_domain||c||d.location.hostname.replace(/^www\./,""),b.src="https://dev.visualwebsiteoptimizer.com/eu01/v.gif?cd="+(window._vis_opt_cookieDays||0)+"&a=774484&d="+encodeURIComponent(d.location.hostname.replace(/^www\./,"") || c)+"&u="+a[0]+"&h="+a[1]+"&t="+z,d.vwo_iehack_queue=[b],f("_vwo_uuid_v2",a.join("|"),366))})("pararius.com",window.VWO.visUuid,document,window,0,_vwo_code.sT);
+;;window.VWO=window.VWO||[];(function(){function l(e){return e.replace(/[^\w\s-.][\w]/g,(function(e){return e.toUpperCase()})).replace(/[^\w\s-.]/g,"").replace(/ [\w]/g,(function(e){return e.toUpperCase()})).replace(/ /g,"")}function i(e,t){if("object"!=typeof t||Array.isArray(t))return s("Invalid attribute type: attribute can only be an object!");var n,r,a,o={};for(n in t)if(Object.prototype.hasOwnProperty.call(t,n)){var i="props"===(i=(i=l((i=n).slice(i.search(/[\w-.]/g)))).replace(/^(_|vwo_|\.|v_|i_|-)*/g,""))?"":i;if(!i.trim())return s("Invalid attribute name: "+n+" is not allowed as an attribute name!");40<i.length&&(i=i.slice(0,40),console.warn("Attribute name should not be greater than 40 characters!"));var c=u(t[n])||(c=t[n],"[object Array]"===toString.call(c))?JSON.stringify(t[n]):t[n];v(e)||(a=100,c=(r=c).length>a?r.slice(0,a-1)+"...":r),o[i]=c}return o}function u(e){return"[object Object]"===toString.call(e)}function s(e){console.log("%cVWO Event API Error:","font-weight:bold;",e),_vwo_err({message:e})}function c(e=-1,t=""){switch(e){case 0:return s("Event name cannot be empty!");case 1:return console.warn("Event name should not be greater than 40 characters!");case 2:return s("Invalid event name: "+t+" is not allowed as an event name!");default:return s("Invalid event name: event name can only be a string!")}}function r(e,t,n){var e=function(e,t){if("string"!=typeof e)return c();if(!(e=e.trim()))return c(0);var n=e;if(!(e=function(e){return"visitors"===(e=(e=l(e.slice(e.search(/[\w-.]/g)))).replace(/^(_|vwo_|\.|v_|i_|-)*/g,"")).toLowerCase()&&(e+="_1"),e}(e)))return c(2,n);40<e.length&&(c(1),e=e.slice(0,40));n=i(e,t);if(n)return{eventName:e,filteredAttributeObject:n}}(e,t=t||{}),r={ogName:1,source:1};if(!e)return{filteredData:void 0,cb:null};t=null;if(u(n)){"function"==typeof n.cb&&(t=n.cb),delete n.cb;var a,o={};for(a in n)r[a]&&(o[a]=n[a]);0<Object.keys(o).length&&(e.filteredAttributeObject.vwoMeta=o)}return{filteredData:e,cb:t}}function v(e){return window.VWO._&&VWO._.allSettings&&VWO._.allSettings.dataStore&&VWO._.allSettings.dataStore.events&&VWO._.allSettings.dataStore.events[e]}VWO.event=function(e,t,n){var{filteredData:e,cb:n}=r(e,t,n);if(e&&function(e){if(!window._vis_debug&&!v(e)){var t;try{t=JSON.parse(window.localStorage.getItem("vwoUnRegEvents"))||{}}catch(e){t={}}if(t[e])return!1;t[e]=!0;e=JSON.stringify(t);window.localStorage.setItem("vwoUnRegEvents",e)}return!0}(e.eventName))return window._vis_debug?void 0:((t={d:{event:{}}}).d.event.props=e.filteredAttributeObject||{},t.d.event.props.page={title:document.title,url:window._vis_opt_url||window.location.href,referrerUrl:document.referrer},t.d.event.name=e.eventName,t.d.event.time=Date.now(),e="https://dev.visualwebsiteoptimizer.com/eu01/events/"+(v(e.eventName)?"t":"t/u")+"?en="+e.eventName+"&a="+774484+"&_cu="+encodeURIComponent(document.URL),navigator.sendBeacon(e,JSON.stringify(t)),void("function"==typeof n&&n()))}})();
+;for(var e=0;e<window.VWO.length;e++){exC(window.VWO[e])}window.VWO.push=function(){exC(arguments[0])};function exC(a){if(!Array.isArray(a))return;switch(a[0]){case"onVWOLoaded":var p=[];p[0]={};p[1]=[];return a[1].call(this,p);case"onVWOCampaignsLoaded":return a[1].call(this,{bucketed_campaigns:[]});case"event":return VWO.event(a[1],a[2],a[3])}}
+;_vwo_code.finish()}}catch(e){_vwo_code.finish();_vwo_err(e);window.VWO.caE=1}})();
+</script><script src="./after_login_files/otBannerSdk.js.download" async="" type="text/javascript"></script></head>
+    <body class="page page--create-subscription page--account" data-controller="create-subscription-page" __processed_dad8ee7d-c3fe-43a2-8d56-2ff26771ff49__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjI2Iiwic2NvcmUiOjIwMDI2fV0=">
+                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDHQ555" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+        <section class="page__notifications"></section>
+
+                
+        
+        
+                    <header class="page__wrapper page__wrapper--masthead">
+                <div class="page__row page__row--masthead" bis_skin_checked="1">
+                                
+    
+    
+                
+    
+    <wc-masthead class="masthead">
+        <a href="https://www.pararius.com/english" class="masthead__logo">Pararius</a>
+
+        
+        <nav class="masthead__navigation">
+                            
+                <details class="masthead__menu">
+                    <summary class="masthead__menu-toggle masthead__menu-toggle--inactive-badge">
+                        Nard
+                    </summary>
+
+                    <div class="masthead__menu-contents" bis_skin_checked="1">
+                        <ul>
+                            <li><a href="https://www.pararius.com/profile" class="masthead__menu-link masthead__menu-link--my-profile">My profile</a></li>
+                            <li><a href="https://www.pararius.com/profile/checklist" class="masthead__menu-link masthead__menu-link--account-checklist">Checklist
+                                                                </a>
+                            </li>
+                            <li><a href="https://www.pararius.com/profile/mail-alerts" class="masthead__menu-link masthead__menu-link--saved-searches">Saved searches</a></li>
+                            <li><a href="https://www.pararius.com/account/subscription" class="masthead__menu-link masthead__menu-link--my-subscription">My subscription</a></li>
+                            <li><a href="https://www.pararius.com/profile/rentalprofile" class="masthead__menu-link masthead__menu-link--huurprofiel">Tenant profile</a></li>
+                            <li><a href="https://www.pararius.com/profile/reactions" class="masthead__menu-link masthead__menu-link--reactions">Reactions</a></li>
+                            <li><a href="https://www.pararius.com/profile/account-settings" class="masthead__menu-link masthead__menu-link--account-settings">Account settings</a></li>
+                            <li><a href="https://www.pararius.com/en/logout?_target_path=/english" class="masthead__menu-link masthead__menu-link--logout">Log out</a></li>
+                        </ul>
+                    </div>
+                </details>
+            
+                            <div class="masthead__language-switcher" bis_skin_checked="1">
+                        
+    
+        
+    
+            
+                            
+        
+        <wc-language-switcher class="language-switcher language-switcher--selected-en">
+                            <details>
+                    <summary class="language-switcher__toggle language-switcher__toggle--en">Show/ hide language choice</summary>
+                                <ul class="language-switcher__options">
+                                                                                                                                        
+                    
+                    
+                    
+                    <li class="language-switcher__option">
+                                                    <a href="https://www.pararius.nl/account/inschrijven" class="language-switcher__option-label language-switcher__option-label--nl">Nederlands</a>
+                                            </li>
+                                                                                                                                        
+                                                                
+                    
+                    
+                    <li class="language-switcher__option language-switcher__option--selected">
+                                                    <span class="language-switcher__option-label language-switcher__option-label--en">English</span>
+                                            </li>
+                                                                                                                                        
+                    
+                    
+                    
+                    <li class="language-switcher__option">
+                                                    <a href="https://www.pararius.com/account/es/subscribe" class="language-switcher__option-label language-switcher__option-label--es">Español</a>
+                                            </li>
+                                                                                                                                        
+                    
+                    
+                    
+                    <li class="language-switcher__option">
+                                                    <a href="https://www.pararius.com/account/it/subscribe" class="language-switcher__option-label language-switcher__option-label--it">Italiano</a>
+                                            </li>
+                                                                                                                                        
+                    
+                    
+                    
+                    <li class="language-switcher__option">
+                                                    <a href="https://www.pararius.com/account/de/subscribe" class="language-switcher__option-label language-switcher__option-label--de">Deutsch</a>
+                                            </li>
+                                                                                                                                        
+                    
+                    
+                    
+                    <li class="language-switcher__option">
+                                                    <a href="https://www.pararius.com/account/fr/subscribe" class="language-switcher__option-label language-switcher__option-label--fr">Français</a>
+                                            </li>
+                            </ul>
+        
+                </details>
+                    </wc-language-switcher>
+    
+                </div>
+                    </nav>
+    </wc-masthead>
+
+                </div>
+            </header>
+        
+        
+        
+        <main class="page__content">
+                <wc-create-subscription-page></wc-create-subscription-page>
+    <div class="page__wrapper page__wrapper--content" bis_skin_checked="1">
+        <div class="page__row page__row--content" bis_skin_checked="1">
+            <div class="page__logo" bis_skin_checked="1">
+                <img src="./after_login_files/parariusplus.svg" alt="">
+            </div>
+
+            <div class="page__header" bis_skin_checked="1">
+                <h1 class="page__header-title">
+                    Almost done
+                </h1>
+
+                <h2 class="page__header-subtitle">
+                    Continue to activate your subscription
+                </h2>
+            </div>
+
+            <div class="page__usps" bis_skin_checked="1">
+                <img class="page__usps-illustration" src="./after_login_files/pararius-plus-usp.svg" alt="">
+
+                <h2 class="page__usps-title">
+                    Be the first to know about new housing offers
+                </h2>
+
+                <ul class="page__usps-list">
+                                            <li>Direct notifications</li>
+                                            <li>Insight into the number of responses</li>
+                                            <li>Respond easily with just one click</li>
+                                            <li>Overview, status and position of your reactions</li>
+                                    </ul>
+            </div>
+
+            <div class="page__button" bis_skin_checked="1">
+                                    <button type="button" class="cb-checkout-button button button--primary">
+                        Pay €1 for your 14-day trial
+                    </button>
+                            </div>
+
+            <div class="page__footnote" bis_skin_checked="1">
+                <p>First 14 days €1, then €29.95 p.m.</p>
+                <p>Cancel any time</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page__wrapper page__wrapper--trustpilot" bis_skin_checked="1">
+        <div class="page__row page__row--trustpilot-mobile" bis_skin_checked="1">
+                
+    
+    
+    
+        
+    
+    
+    
+    <div class="trustpilot-widget trustpilot-widget--mini-carrousel" data-locale="nl-NL" data-template-id="539ad0ffdec7e10e686debd7" data-businessunit-id="5cc05c54ce708b00017b8a8f" data-theme="light" data-review-languages="nl" data-tags="SelectedReview" style="position: relative;" bis_skin_checked="1"><iframe title="Reviews van klanten mogelijk gemaakt door Trustpilot" loading="auto" src="./after_login_files/index.html" style="position: relative; border-style: none; display: block; overflow: hidden;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}"></iframe></div>
+
+
+        </div>
+
+        <div class="page__row page__row--trustpilot-desktop" bis_skin_checked="1">
+                
+    
+    
+    
+        
+    
+    
+    
+    <div class="trustpilot-widget trustpilot-widget--carrousel" data-locale="nl-NL" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="5cc05c54ce708b00017b8a8f" data-theme="light" data-review-languages="nl" data-tags="SelectedReview" style="position: relative;" bis_skin_checked="1"><iframe title="Reviews van klanten mogelijk gemaakt door Trustpilot" loading="auto" src="./after_login_files/index(1).html" style="position: relative; border-style: none; display: block; overflow: hidden;" bis_size="{&quot;x&quot;:56,&quot;y&quot;:767,&quot;w&quot;:1080,&quot;h&quot;:130,&quot;abs_x&quot;:56,&quot;abs_y&quot;:767}"></iframe></div>
+
+
+        </div>
+    </div>
+
+    <div class="page__mobile-checkout page__mobile-checkout--hidden" bis_skin_checked="1">
+                    <button type="button" class="button button--primary cb-checkout-button">Pay €1 for your 14-day trial</button>
+                <p>
+            First 14 days €1, then €29.95 p.m.
+        </p>
+        <p>
+            Cancel any time
+        </p>
+    </div>
+        </main>
+
+                    <div class="page__wrapper page__wrapper--footer" bis_skin_checked="1">
+                                <div class="page__row page__row--footer" bis_skin_checked="1">
+                            
+    
+    
+        
+                
+    
+    <footer class="footer footer--compact">
+        <div class="footer__links" bis_skin_checked="1">
+            <div class="footer__link" bis_skin_checked="1">
+                <div class="footer__link-header footer__link-header--logo" bis_skin_checked="1"></div>
+                <div class="footer__link-menu" bis_skin_checked="1">
+                    
+                                                                
+                            
+    
+    
+    <ul class="menu menu--footer">
+                                                    
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/about-pararius" class="menu__link">About Pararius</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/advertise-on-pararius" class="menu__link">Advertise</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/news" class="menu__link">Press releases</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/mediation-fees" class="menu__link">Mediation fees</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/user-statistics" class="menu__link">User statistics</a>
+                </li>
+                        </ul>
+
+                </div>
+            </div>
+
+            <div class="footer__link" bis_skin_checked="1">
+                <div class="footer__link-header" bis_skin_checked="1">
+                    Find a property
+                </div>
+                <div class="footer__link-menu" bis_skin_checked="1">
+                    
+                                                                
+                    
+                            
+    
+    
+    <ul class="menu menu--footer">
+                                                    
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/about-parariusplus" class="menu__link">Pararius+</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/frequently-asked-questions-home-seekers" class="menu__link">Frequently asked questions</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/register" class="menu__link">Sign up for free</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/avoid-scams" class="menu__link">Avoid scams</a>
+                </li>
+                                                                                    
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/tenant-screening-process" class="menu__link">Tenant screening process</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item">
+                    <a href="https://www.pararius.com/info/expat-guide" class="menu__link">Expat guide</a>
+                </li>
+                                                                
+                
+                
+                                                    
+                
+                <li class="menu__item">
+                    <a href="https://www.huurwoningen.nl/en" class="menu__link" target="_blank">Huurwoningen</a>
+                </li>
+                                                                
+                
+                
+                                                    
+                
+                <li class="menu__item">
+                    <a href="https://www.rentaroof.co.uk/" class="menu__link" target="_blank">Rentaroof</a>
+                </li>
+                                                                
+                
+                
+                                                    
+                
+                <li class="menu__item">
+                    <a href="https://www.toitpourtoi.fr/" class="menu__link" target="_blank">Toitpourtoi</a>
+                </li>
+                        </ul>
+
+                </div>
+            </div>
+
+                    </div>
+        <div class="footer__socials-container" bis_skin_checked="1">
+            <div class="footer__sponsor" bis_skin_checked="1">
+                
+                                        <svg fill="none" height="141" viewBox="0 0 465 141" width="465"><g fill="#fff"><path d="m0 121.89h.24c5.50296.478 11.0302.615 16.55.41 7.162-.353 14.2792-1.334 21.27-2.93 8.3-1.92 16.91-1.53 25.33-.92 7.02.514 14.02 1.21 21 2.09.0019-1.264-.424-2.491-1.2084-3.483-.7843-.991-1.881-1.688-3.1116-1.977-1.8219-.341-3.6673-.541-5.52-.6l-6.88-.07c-4.48 0-9 0-13.45.15-7.63.23-15.26.78-22.9.77-6.9356.066-13.8612-.541-20.68-1.81-.86-.16-3.55-1.12-4.53-1.08-5.52.24-6.11 9.45-6.11 9.45z"></path><path d="m173.76 49.3901c2.93-2.18 5.79-4.21 7.93-8.73 2.44-5.23-23.94-26.76-40.78-40.000034-.42-.33-1.3-1.2-2-.06-.021.037514-.048.071302-.08.1-3.77 4.510004-19 22.670034-21.68 26.180034-2.39 2.06-23.92 27.79-22.87 30.08 5.6 3.32 42.85-6.82 70.57-4.31-6.85 7.44-10.85 10.35-19.85 23.92-2.62 4-6.49 7.93-10 11.44-4.46-6.86-6.56-9.85-14.5-15.31-7.14-4.92-19.49-9.37-23.42-10.63-1.74-.55-1.25 1.48-1.25 1.48 3.76 30.94-3.32 68.6299 2.08 71.5299 7.67 3.15 77.29 7.45 79.32 4.07 0 0 2.74-2.41 4-28.8 1.32-26.6699-1.66-32.7799 1.58-59.4499.19-1.46-6.22-1.2-9.05-1.51zm-66.91.24c6-6.68 28.57-35.53 31.3-39.6 16.28 12.84 21.22 23.65 34.92 32.97-.947 1.2-1.91 2.3866-2.89 3.56-.46.55-.91 1.11-1.38 1.64-.61.68-.72.65-1.64.58-3.39-.25-6.78-.43-10.17-.52-12-.31-24 .77-35.94 1.17-2.23.07-4.47.13-6.7.17h-3.74c-.56.01-3.44-.33-3.76.03zm65.23 63.7599c-.47 9 1.12 11.31.51 19.59-28-.26-40.32-8.29-69.09-8.29-2.4-29.3499 1.47-26.9999-1-52.2499 9.34 4 18.83 10.78 27.7 20.47-.085.1014-.175.1982-.27.29-4.65 4.3-12.25 13.1599-19 16.9999-1 .58-1.63 3.3-.91 2.92 7.67-4 15.34-12.44 20.34-17.4399l1.25-1.25c2.764 3.1451 5.361 6.4329 7.78 9.8499 6.183 8.735 14.013 16.177 23.05 21.91l.12.08c5.31 3.15 4.37-2.25 2.34-3.72-8.331-6.055-15.559-13.497-21.37-22-3.15-4.4399-5.42-7.8999-7.27-10.7399 4.263-3.9773 8.162-8.328 11.65-13 6.182-8.7374 13.394-16.6981 21.48-23.71 1.14.14 2.31.29 3.51.46-3.25 26.67.54 33.16-.82 59.8299z"></path><path d="m236.91 137.83c-3.57 0-4-2.84-4-5s.06-4.62.13-7.2c0-2 .1-4.12.13-6.23-2.56-.15-6-.18-8.49-.18-3.76 0-7.42.12-9.07.19v4.68c0 1.42 0 2.9.1 4.43s.11 3.35.11 5.1c0 2.74-1.39 4.18-4 4.18-.829-.024-1.653-.131-2.46-.32-.38-.07-.77-.15-1.18-.21-.092-.015-.179-.051-.255-.105-.077-.053-.14-.124-.185-.205-.045-.083-.068-.176-.068-.27s.023-.187.068-.27c0 0 .63-1.92.63-14.33 0-3-.21-14.13-.32-16.71-.007-1.804-.171-3.604-.49-5.38-.037-.0764-.056-.1602-.056-.245 0-.0849.019-.1687.056-.245.039-.0812.097-.1522.168-.2077.071-.0554.154-.0939.242-.1123 1.002-.2939 2.037-.4586 3.08-.49 2.86 0 4.78 1.55 4.78 3.86 0 2-.05 7.34-.1 12.39 2.25.14 5.49.17 7.9.17 3.45 0 7.18-.1 9.6-.19-.06-3.51-.16-6.77-.26-9.56-.19-4.54-.46-5.32-.47-5.35-.044-.0761-.067-.1623-.067-.25 0-.0878.023-.174.067-.25.038-.0847.097-.1588.17-.2163.073-.0574.159-.0964.25-.1137 1.002-.2932 2.037-.4578 3.08-.49 2.86 0 4.78 1.55 4.78 3.86s-.05 4.57-.11 6.79-.1 4.34-.1 6.53c0 7.29.31 18.49.75 20.63.016.081.015.164-.002.245s-.05.157-.098.225c-.1.132-.247.221-.41.25-.43.11-.88.19-1.22.26-.876.225-1.776.34-2.68.34z"></path><path d="m261 138.09c-9.65 0-14-7.21-14-13.92 0-7.31 4.56-15.18 14.57-15.18 9.65 0 14 6.81 14 13.13-.03 7.94-5.03 15.97-14.57 15.97zm-.05-25.47c-4.35 0-6.33 5.53-6.33 10.66 0 5.39 2.16 11.19 6.91 11.19 4.38 0 6.37-5.91 6.37-11.4-.03-5.07-2.2-10.45-6.98-10.45z"></path><path d="m300.19 137.73c-.673-.041-1.324-.254-1.89-.62-.651-.396-1.143-1.008-1.39-1.73-.231-.71-.339-1.454-.32-2.2 0-2.17 0-4.08.07-6.07 0-2.15.09-4.4.09-7.2 0-3.88-.28-6.24-4.05-6.24-2 0-4.68 2.32-4.68 6.66 0 2.33.05 4.38.1 6.46s.11 4.32.11 6.86c0 2.78-1.33 4.18-3.94 4.18-1.308-.053-2.607-.233-3.88-.54-.5-.1-.5-.44-.33-.83.276-.58.455-1.202.53-1.84.421-3.588.618-7.198.59-10.81 0-2.57-.1-5.19-.21-7.87-.005-1.959-.378-3.899-1.1-5.72.025-.115.082-.221.165-.305.084-.083.19-.14.305-.165.895-.298 1.828-.467 2.77-.5 2.47 0 4.33 1.2 4.67 2.93 2.084-1.915 4.82-2.963 7.65-2.93 5.12 0 6.9 2 7.51 3.54 1.77-2.31 5.37-3.54 8.25-3.54 7.34 0 8.33 4 8.33 7.92 0 1.85-.05 3.62-.1 5.45s-.11 4-.11 6.4c0 3.12.33 4.92 2 4.92.59-.043 1.156-.255 1.63-.61.11-.082.243-.128.38-.13.13.001.256.043.36.12l.21.16c.108.079.186.192.222.321.036.128.028.265-.022.389-.06.15-1.53 3.64-6.43 3.64-2.6 0-5.37-1.28-5.37-4.86 0-2.18 0-4 .07-6 .05-2.1.09-4.3.09-7.09 0-3.88-.26-6.24-3.89-6.24-4.94 0-5 8.31-5 8.66 0 0 .11 9.22.11 9.42.03 1.097-.119 2.191-.44 3.24-.254.75-.636 1.451-1.13 2.07-.527.477-1.22.728-1.93.7z"></path><path d="m339.71 138.09c-7.49 0-12.92-5.83-12.92-13.86 0-7.49 4.91-15.24 13.14-15.24 7.14 0 10.33 4.08 10.33 8.13 0 5.36-5.42 7.76-10.81 7.76-1.865-.046-3.703-.457-5.41-1.21.23 5.82 3.11 9.27 7.79 9.27 4.07 0 7.9-2.85 7.94-2.88.108-.078.237-.12.37-.12.162.001.316.065.43.18l.26.26c.074.074.128.168.154.27s.025.209-.004.31c.02.04-1.98 7.13-11.27 7.13zm-5.62-17.92c1.363.566 2.824.862 4.3.87 2 0 4.37-1 4.37-4 0-1-.26-4.45-3.52-4.45-3.03.03-5.02 5.41-5.15 7.58z"></path><path d="m363.62 137.83c-2.65 0-4.05-1.44-4.05-4.18v-16.32c0-4.06-.09-8.3-.26-11.92-.24-4.67-.68-5.75-.43-6.08.061-.0737.137-.1327.224-.1725.086-.0398.181-.0595.276-.0575h.05s2 .15 3.24.15h7.51c10 0 14.46 5.7 14.46 11.34 0 8.24-7.78 12.56-15.47 12.56-.748.004-1.496-.036-2.24-.12.016 4.542.293 9.08.83 13.59.023.156-.017.315-.11.443-.094.127-.234.212-.39.237-.42.06-.81.14-1.19.21-.804.188-1.625.295-2.45.32zm3.25-18.5h1.24c5.71 0 8.7-4.17 8.7-8.29 0-3.89-2.69-7.82-8.7-7.82h-1c-.05 2.06-.2 9-.2 12.66z"></path><path d="m394.55 137.83c-3.36 0-5.36-1.93-5.36-5.18 0-2 .05-4.39.11-7 .07-3.11.15-6.51.15-9.83 0-4.69-.09-9.43-.26-13-.25-4.47-.86-5.6-.87-5.61-.064-.0999-.098-.2162-.098-.335s.034-.2351.098-.335l.16-.22c.052-.093.128-.1712.219-.2272s.194-.0879.301-.0928c2.22 0 7.42.11 7.42 4.5 0 2.63-.05 5.31-.1 8s-.11 5.58-.11 8.4c0 5.35.07 10 .21 14.09.08 2.56 1 2.89 1.77 2.89.593-.044 1.162-.256 1.64-.61.107-.081.236-.126.37-.13.135-.001.266.045.37.13l.21.15c.106.08.183.193.219.321.037.129.03.265-.019.389-.05.21-1.52 3.7-6.43 3.7z"></path><path d="m413.25 138.09c-1.017.047-2.032-.119-2.981-.487-.949-.367-1.81-.929-2.53-1.65-.719-.72-1.28-1.582-1.646-2.532-.367-.949-.531-1.964-.483-2.981 0-7.41 7.61-10.31 14.39-10.59 0-4.56-1.2-6.18-4.47-6.18-2.581.158-5.024 1.22-6.9 3-.111.096-.253.149-.4.15-.08.001-.16-.014-.234-.045s-.141-.077-.196-.135l-.22-.21c-.075-.075-.128-.168-.154-.27s-.025-.209.004-.31c.89-3.32 5.26-6.87 10.37-6.87 8 0 9.12 5 9.12 9.87 0 1.39 0 3-.08 4.54s-.08 3.21-.08 4.67v.63c0 2.59.24 5.24 2 5.24.593-.044 1.162-.256 1.64-.61.107-.081.236-.126.37-.13.13 0 .256.042.36.12l.21.16c.109.078.188.191.225.32.036.129.027.267-.025.39-.06.15-1.53 3.64-6.43 3.64-2.6 0-4.36-1.09-4.92-3-.844 1.023-1.904 1.846-3.104 2.411-1.2.566-2.51.859-3.836.859zm6.75-14.83c-3.47.66-7.19 2-7.19 6.18 0 2.39 1 3.71 2.94 3.71 1.54 0 4.1-1.47 4.1-3 0-1 0-2.14.07-3.35s.08-2.35.08-3.54z"></path><path d="m458.31 137.83c-2.59 0-5.36-1.28-5.36-4.86 0-2.18 0-4 .07-6 0-2.1.08-4.3.08-7.09 0-4-.27-6.5-4-6.5-2.39 0-5.74 2.15-5.74 6.92 0 2.33.05 4.38.1 6.46s.11 4.32.11 6.86c0 2.78-1.33 4.18-3.94 4.18-1.308-.053-2.607-.234-3.88-.54-.126-.027-.24-.092-.326-.187s-.14-.215-.154-.343c0-.26 1.18-2.08 1.27-12.95 0-2.62-.11-5.32-.22-7.87-.22-4.37-1.24-5.23-1.1-5.72.035-.112.097-.213.181-.295s.186-.142.299-.175c.894-.299 1.827-.468 2.77-.5 2.5 0 4.38 1.23 4.68 3 2-2.12 5.69-3.25 8.7-3.25 7.32 0 8.32 3.93 8.32 8.18 0 1.85 0 3.62-.09 5.45s-.12 4-.12 6.4c0 3.12.34 4.92 2 4.92.593-.044 1.162-.256 1.64-.61.107-.081.236-.126.37-.13.13-.002.257.041.36.12l.22.16c.106.08.183.193.219.321.037.129.03.265-.019.389-.06.17-1.54 3.66-6.44 3.66z"></path><path d="m234.64 45.3199c.043 1.6781-.264 3.3467-.9 4.9-.558 1.3041-1.478 2.4213-2.65 3.22-1.221.8026-2.576 1.3816-4 1.71-1.737.3832-3.512.5644-5.29.54h-5.89l-1.75 14.5h-4.2l3.91-32h9.21c1.48 0 2.77 0 3.88.16 1.075.108 2.137.3224 3.17.64.892.2561 1.727.6804 2.46 1.25.657.56 1.174 1.2653 1.51 2.06.386.9587.57 1.9869.54 3.02zm-12.46 6.83c2.74 0 4.78-.4566 6.12-1.37 1.34-.92 2-2.52 2-4.82.075-.6654-.049-1.3382-.357-1.9328-.308-.5947-.786-1.0844-1.373-1.4072-1.732-.6937-3.597-.9943-5.46-.88h-5.51l-1.25 10.41z"></path><path d="m246.63 70.67c-1.293.0782-2.587-.1314-3.789-.6139-1.201-.4825-2.281-1.2257-3.161-2.1761-1.676-1.9845-2.55-4.5241-2.45-7.12 0-.54 0-1.15.11-1.84.238-2.1183.919-4.1628 2-6 1.053-1.7544 2.523-3.2213 4.28-4.27 1.776-1.0708 3.816-1.6249 5.89-1.6 1.487-.033 2.95.3703 4.21 1.16 1.159.7093 2.073 1.7561 2.62 3l.44-3.58h4l-2.78 22.56h-4l.49-3.84c-.815 1.318-1.95 2.4084-3.3 3.17-1.393.7771-2.965 1.1737-4.56 1.15zm3-20.3c-1.17-.0504-2.334.1824-3.394.6786-1.061.4962-1.985 1.2411-2.696 2.1714-1.538 2.0995-2.318 4.6594-2.21 7.26-.086 1.8016.474 3.5748 1.58 5 .589.6506 1.318 1.1588 2.132 1.4862.815.3275 1.693.4655 2.568.4038 1.018.0291 2.03-.1684 2.962-.5783s1.761-1.0219 2.428-1.7917c1.464-1.7948 2.35-3.9915 2.54-6.3.066-.5377.102-1.0785.11-1.62.087-1.7663-.463-3.5052-1.55-4.9-.559-.6178-1.251-1.1013-2.023-1.4147s-1.605-.4485-2.437-.3953z"></path><path d="m265.64 70.1901 2.09-17c.06-.4933.12-1.2033.18-2.13.07-.92.13-1.72.17-2.39v-1h4.27l-.35 3.49c.721-1.2145 1.718-2.2422 2.91-3 1.088-.6675 2.343-1.0142 3.62-1 .755-.0076 1.507.0798 2.24.26l-.45 3.58c-.793-.2333-1.614-.3545-2.44-.36-.819-.0129-1.632.1419-2.388.4549-.757.313-1.442.7776-2.012 1.3651-1.304 1.4403-2.092 3.273-2.24 5.21l-1.53 12.55z"></path><path d="m294.43 70.19h-1.87c-2.767 0-4.717-.42-5.85-1.26-1.13-.82-1.69-2.25-1.69-4.3.001-.7492.051-1.4974.15-2.24l1.48-12h-4.31l.33-2.7h4.39l.71-5.8 4.11-1.17-.84 7h6.11l-.35 2.7h-6.09l-1.51 12.19c-.067.4939-.104.9915-.11 1.49-.068.4673.006.9443.213 1.3689.207.4245.537.7769.947 1.0111 1.47.4624 3.012.6489 4.55.55z"></path><path d="m300.86 70.1901 2-16.3c.127-1 .237-2.02.33-3.06s.153-1.83.18-2.37v-.81h4.17l-.37 3.53c.939-1.2885 2.188-2.3201 3.63-3 1.421-.704 2.984-1.0735 4.57-1.08 2.44 0 4.26.64 5.44 1.92s1.76 3.22 1.76 5.81c-.005.8959-.062 1.7907-.17 2.68l-1.58 12.7h-4l1.56-12.68c.107-.7854.161-1.5773.16-2.37.092-1.2763-.261-2.5451-1-3.59-.42-.4287-.931-.7573-1.496-.9616-.564-.2042-1.167-.2789-1.764-.2184-1.763.0264-3.468.6346-4.85 1.73-1.388.9409-2.373 2.3682-2.76 4l-1.73 14.13z"></path><path d="m349.09 56.28c.019 1.0805-.099 2.159-.35 3.21h-16.68c-.04.4067-.06.8167-.06 1.23-.06.9051.074 1.8126.391 2.6625s.811 1.6227 1.449 2.2675c1.376 1.2086 3.171 1.8296 5 1.73 2.691-.0021 5.307-.8835 7.45-2.51l.86 3c-2.603 1.8674-5.736 2.8521-8.94 2.81-2.797.149-5.54-.8144-7.63-2.68-.935-.9345-1.663-2.0544-2.139-3.2876-.475-1.2332-.687-2.5524-.621-3.8724-.036-2.47.534-4.9112 1.66-7.11 1.031-2.0156 2.594-3.7103 4.52-4.9 1.951-1.175 4.192-1.7811 6.47-1.75 1.186-.0813 2.375.0997 3.483.53 1.108.4304 2.107 1.0996 2.927 1.96 1.541 1.8864 2.328 4.277 2.21 6.71zm-16.59.44h12.95c0-.07 0-.17 0-.3s0-.21 0-.27c.107-1.5738-.382-3.1303-1.37-4.36-.5-.5157-1.106-.9175-1.775-1.1781-.67-.2606-1.388-.3738-2.105-.3319-1.761-.0253-3.473.5854-4.82 1.72-1.427 1.2357-2.434 2.8855-2.88 4.72z"></path><path d="m353.88 70.1901 2.09-17c.06-.49.12-1.2.19-2.13s.12-1.72.16-2.39l.05-1h4.26l-.38 3.51c.726-1.214 1.726-2.2413 2.92-3 1.085-.6672 2.336-1.0139 3.61-1 .755-.0075 1.507.0798 2.24.26l-.46 3.56c-.793-.2333-1.614-.3544-2.44-.36-.817-.0115-1.628.1439-2.383.4569-.755.3129-1.438.7768-2.007 1.3631-1.308 1.4378-2.096 3.2719-2.24 5.21l-1.49 12.52z"></path><path d="m390.4 70.1901-6.68-22.54h4.42c.33 1.27.85 3.18 1.54 5.73s1.3 4.83 1.83 6.85 1 3.94 1.48 5.79c.87-1.86 1.81-3.82 2.83-5.86s2.15-4.3 3.41-6.76 2.24-4.38 2.93-5.75h4.33l-12.22 22.54z"></path><path d="m416.79 70.67c-1.301.0858-2.605-.1201-3.816-.6029-1.211-.4827-2.299-1.2299-3.184-2.1871-1.681-1.9821-2.555-4.5234-2.45-7.12.001-.615.038-1.2293.11-1.84.228-2.1204.911-4.1667 2-6 1.052-1.7519 2.518-3.2183 4.27-4.27 1.777-1.0693 3.816-1.6233 5.89-1.6 1.49-.0331 2.957.3701 4.22 1.16 1.159.7069 2.07 1.7547 2.61 3l.44-3.58h4l-2.77 22.54h-4l.49-3.84c-.815 1.318-1.95 2.4085-3.3 3.17-1.376.7756-2.93 1.1789-4.51 1.17zm3-20.3c-1.171-.0495-2.336.1837-3.398.6797-1.062.4961-1.989 1.2405-2.702 2.1703-1.535 2.1008-2.311 4.6606-2.2 7.26-.09 1.8022.47 3.5769 1.58 5 .588.6518 1.317 1.1608 2.131 1.4884.815.3275 1.693.4648 2.569.4016 1.025.0351 2.044-.1595 2.984-.5696.939-.4101 1.775-1.0253 2.446-1.8004 1.465-1.7934 2.348-3.9914 2.53-6.3.071-.5372.107-1.0782.11-1.62.092-1.7669-.459-3.5073-1.55-4.9-.562-.6225-1.259-1.1089-2.036-1.4224-.778-.3136-1.617-.4462-2.454-.3876z"></path><path d="m435.73 70.1901 2-16.3c.127-1 .237-2.02.33-3.06s.153-1.83.18-2.37v-.81h4.17l-.37 3.53c.938-1.286 2.182-2.3173 3.62-3 1.422-.702 2.984-1.0714 4.57-1.08 2.447 0 4.26.64 5.44 1.92s1.77 3.2167 1.77 5.81c-.01.8957-.067 1.7902-.17 2.68l-1.59 12.7h-4l1.56-12.68c.102-.7859.156-1.5774.16-2.37.092-1.2763-.261-2.5451-1-3.59-.421-.43-.934-.7595-1.5-.9638s-1.171-.2782-1.77-.2162c-1.761.0233-3.463.632-4.84 1.73-1.388.9409-2.373 2.3682-2.76 4l-1.73 14.07z"></path></g></svg>
+                        <span class="footer__sponsor-text">Huisvesting voor de allerarmsten</span>
+                            </div>
+            <div class="footer__social" bis_skin_checked="1">
+                        
+    
+    
+    <ul class="menu menu--footer-social">
+                                                    
+                
+                
+                
+                
+                <li class="menu__item menu__item--facebook">
+                    <a href="https://www.facebook.com/Pararius/" class="menu__link menu__link--facebook" target="_blank" rel="nofollow noopener noreferrer">Facebook</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item menu__item--linkedin">
+                    <a href="https://www.linkedin.com/company/pararius-bv" class="menu__link menu__link--linkedin" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item menu__item--twitter">
+                    <a href="https://x.com/pararius" class="menu__link menu__link--twitter" target="_blank" rel="nofollow noopener noreferrer">Twitter</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item menu__item--instagram">
+                    <a href="https://www.instagram.com/pararius/" class="menu__link menu__link--instagram" target="_blank" rel="nofollow noopener noreferrer">Instagram</a>
+                </li>
+                                                                
+                
+                
+                
+                
+                <li class="menu__item menu__item--pinterest">
+                    <a href="https://pinterest.com/pararius/" class="menu__link menu__link--pinterest" target="_blank" rel="nofollow noopener noreferrer">Pinterest</a>
+                </li>
+                        </ul>
+
+            </div>
+        </div>
+        <div class="footer__legal" bis_skin_checked="1">
+            <a href="https://www.pararius.com/en/terms-of-use" target="_blank" rel="nofollow" class="footer__legal-matter footer__legal-matter--terms">
+                Terms and conditions
+            </a>
+            <a href="https://www.pararius.com/pararius-privacy-policy" target="_blank" rel="nofollow" class="footer__legal-matter footer__legal-matter--privacy">
+                Privacy policy
+            </a>
+            <a href="https://www.pararius.com/en/cookie-policy" rel="nofollow" class="footer__legal-matter footer__legal-matter--cookies">
+                Cookie policy
+            </a>
+            <button id="ot-sdk-btn" class="btn ot-sdk-show-settings footer__legal-matter footer__legal-matter--cookies footer__legal-matter--cookie-preference">
+                Change cookie preferences
+            </button>
+            <span class="footer__legal-matter footer__legal-matter--coc">
+                COC number: 34242388
+            </span>
+            <span class="footer__legal-matter footer__legal-matter--vat">
+                Vat number: NL8153.68.975B01
+            </span>
+            <span class="footer__legal-matter footer__legal-matter--copyright">
+                © 2006 - 2025 Pararius B.V. part of Treehouse B.V.
+            </span>
+        </div>
+    </footer>
+
+                </div>
+            </div>
+        
+        <div class="page__modal" bis_skin_checked="1"></div>
+
+                <script>window.pararius = {};</script>
+    <script>
+            pararius.env = 'prod';
+
+        pararius.uris = {
+            maps: 'https\u003A\/\/www.pararius.nl\/api\/map',
+            autocomplete: '\/api\/suggest',
+        };
+
+        pararius.enabled_feature_toggles = '\u005B\u005D';
+
+        Platform.uris = {
+            maps: 'https\u003A\/\/www.pararius.nl\/api\/map',
+            autocomplete: '\/api\/suggest',
+            get_search_urls: '\/frontend\/get\u002Dsearch\u002Durls',
+            recent_searches: '\/api\/recent\u002Dsearches',
+            listing_search_item: '\/frontend\/en\/listing\u002Dsearch\u002Ditem\/',
+        };
+
+        Platform.locale = 'en';
+    </script>
+
+    
+
+        
+        <template id="notification-template"></template>
+
+                                    <script>
+                    window._uxa = window._uxa || [];
+
+                    window._uxa.push(['setCustomVariable', 1, 'user_logged_in', true]);
+                    window._uxa.push(['setCustomVariable', 2, 'user_is_premium', false]);
+
+                    
+                                    </script>
+                        
+
+
+<div id="cb-container" style="position: fixed; inset: 0px; z-index: 2147483647; display: none; overflow-y: hidden;" bis_skin_checked="1"><div id="cb-loader" style="z-index: 99999; visibility: hidden; transition: 0.5s; background: rgb(244, 245, 249); position: absolute; left: 0px; right: 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 9px 0px, rgba(0, 0, 0, 0.15) 0px 20px 30px 1px, rgba(0, 0, 0, 0.15) 0px 40px 40px 1px;" bis_skin_checked="1"><div style="overflow: hidden;" bis_skin_checked="1"><div id="cb-loader-header" style="padding: 12px 40px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; text-align: center; min-height: 64px; box-sizing: border-box;" bis_skin_checked="1"><div style="min-height: 46px; display: flex; align-items: center; margin-top: 1px;" bis_skin_checked="1"><img id="cb-header-logo" style="max-height: 40px; max-width: 240px; vertical-align: middle; width: auto; margin: 3px auto;"></div></div><div id="cb-loading-bar" style="height: 2px; background: rgb(72, 231, 154); transition-duration: 0.5s; transition-timing-function: ease-in-out; visibility: hidden;" bis_skin_checked="1"></div><div style="padding: 24px 36px;" bis_skin_checked="1"><div class="cb-placeholder" id="cb-placeholder" bis_skin_checked="1"><div class="wavering" style="height: 20px; width: 100px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;" bis_skin_checked="1"></div><div class="wavering" style="height: 40px; width: 200px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;" bis_skin_checked="1"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;" bis_skin_checked="1"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;" bis_skin_checked="1"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;" bis_skin_checked="1"></div></div><div id="cb-error" style="font-size: 18px; line-height: 27px; color: rgb(248, 48, 48); text-align: center; display: none;" bis_skin_checked="1"></div></div><div id="cb-modal-close" style="position: absolute; background: rgb(57, 57, 65); height: 24px; width: 24px; border-radius: 50%; right: -12px; top: -12px; font-size: 20px; color: rgba(255, 255, 255, 0.7); text-align: center; cursor: pointer; display: table; font-weight: 400; line-height: 24px;" bis_skin_checked="1">×</div></div></div><iframe id="cb-frame" style="width: 100%; height: 100%; z-index: 999999; visibility: hidden; position: relative; border: 0px;" src="./after_login_files/saved_resource.html"></iframe><iframe id="cb-master-frame" name="cb-master-frame" src="./after_login_files/master.html" style="margin: 0px; padding: 0px; border: none; overflow: hidden; display: block; min-width: 100%; width: 1px; height: 1.2em;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" bis_id="fr_h4t4wjh7frdl1y15q74dfr" bis_depth="0" bis_chainid="1"></iframe></div><iframe style="display: none;" name="__tcfapiLocator" title="CMP Locator" src="./after_login_files/saved_resource(1).html"></iframe></body></html>
